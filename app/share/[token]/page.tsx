@@ -6,13 +6,14 @@ export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
 interface SharePageProps {
-  params: {
-    token: string;
-  };
+    params: Promise<{
+      token: string;
+    }>;
 }
 
 export default async function SharePage({ params }: SharePageProps) {
-  const result = await fetchShareData(params.token);
+  const { token } = await params;
+  const result = await fetchShareData(token);
 
   if (!result.ok) {
     return <ShareError message={result.error} />;
@@ -29,5 +30,9 @@ export default async function SharePage({ params }: SharePageProps) {
   }
 
   return <ShareView data={result.data} />;
+}
+
+export async function generateStaticParams() {
+  return []
 }
 
