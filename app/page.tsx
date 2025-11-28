@@ -17,7 +17,7 @@ export default function Home() {
         <div className="mt-8 flex flex-wrap gap-4">
           <a
             className="inline-flex items-center justify-center rounded-full bg-slate-900 px-6 py-3 text-base font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl"
-            href="https://www.yimla.health"
+            href="https://www.yimla.dev"
             target="_blank"
             rel="noreferrer"
           >
@@ -25,7 +25,7 @@ export default function Home() {
           </a>
           <a
             className="inline-flex items-center justify-center rounded-full border border-slate-200 px-6 py-3 text-base font-semibold text-slate-900 transition hover:-translate-y-0.5 hover:border-slate-900/20"
-            href="mailto:support@yimla.health"
+            href="mailto:support@yimla.dev"
           >
             Contact support
           </a>

@@ -21,13 +21,13 @@ export function ShareError({
         <div className="mt-8 flex flex-col gap-3">
           <a
             className="inline-flex items-center justify-center rounded-full border border-slate-200 px-5 py-3 font-semibold text-slate-900 transition hover:-translate-y-0.5"
-            href="mailto:support@yimla.health"
+            href="mailto:support@yimla.dev"
           >
             Contact support
           </a>
           <a
             className="inline-flex items-center justify-center rounded-full border border-slate-200 px-5 py-3 font-semibold text-slate-900 transition hover:-translate-y-0.5"
-            href="https://www.yimla.health"
+            href="https://www.yimla.dev"
             target="_blank"
             rel="noreferrer"
           >

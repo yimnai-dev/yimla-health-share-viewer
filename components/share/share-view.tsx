@@ -46,7 +46,7 @@ export function ShareView({ data }: ShareViewProps) {
           <div className="mt-6 flex flex-wrap gap-4">
             <a
               className="inline-flex items-center justify-center rounded-full bg-white px-5 py-3 text-slate-900 font-semibold transition hover:-translate-y-0.5"
-              href="https://www.yimla.health"
+              href="https://www.yimla.dev"
               target="_blank"
               rel="noreferrer"
             >
@@ -54,7 +54,7 @@ export function ShareView({ data }: ShareViewProps) {
             </a>
             <a
               className="inline-flex items-center justify-center rounded-full border border-white/30 px-5 py-3 font-semibold text-white transition hover:-translate-y-0.5"
-              href="mailto:support@yimla.health"
+              href="mailto:support@yimla.dev"
             >
               Need assistance?
             </a>
@@ -104,8 +104,8 @@ export function ShareView({ data }: ShareViewProps) {
 
         <p className="text-center text-sm text-slate-500">
           Questions about this share? Contact{" "}
-          <a className="font-semibold text-slate-900" href="mailto:support@yimla.health">
-            support@yimla.health
+          <a className="font-semibold text-slate-900" href="mailto:support@yimla.dev">
+            support@yimla.dev
           </a>
         </p>
       </main>
