@@ -31,7 +31,7 @@ export function VisitCard({ visit, includeAttachments }: VisitCardProps) {
       )}
 
       {visit.doctor_name && (
-        <div className="mt-4 text-sm font-medium text-slate-700">Dr. {visit.doctor_name}</div>
+        <div className="mt-4 text-sm font-medium text-slate-700">{visit.doctor_name}</div>
       )}
 
       {(visit.reason_for_visit || visit.diagnosis_summary) && (
